@@ -1,0 +1,24 @@
+@import 'partials/navbar';
+@import 'partials/banner';
+@import 'partials/form';
+@import 'partials/footer';
+@import 'partials/_cards_masonry';
+@import 'partials/_button';
+
+.description {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+
+
+.learn-more {
+    color: #2C2C6D!important;
+    font-weight: 800!important;
+}
+
+#explore {
+    margin-top: 400px;
+    padding: 28px;
+    font-size: 19px;
+}
+
