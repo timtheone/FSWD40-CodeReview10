@@ -7,7 +7,7 @@
     <div class="navbar-nav ml-auto">
       <?php if(isset($_SESSION['user'])!="") { ?>
       <a class="nav-item nav-link" href="logout.php?logout">Sign out</a>
-      <a class="nav-item nav-link" href="<?php echo ROOT_URL."home.php" ; ?>">Home</a>
+      <a class="nav-item nav-link" href="<?php echo "home.php" ; ?>">Home</a>
       <?php } ?>
     </div>
   </div>

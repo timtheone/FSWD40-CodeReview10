@@ -110,7 +110,7 @@ function alerterror(){
         </div>
         <?php } ?>
         <?php if(isset($_SESSION['user'])!="") { ?>
-            <a id="explore" class="btn btn-new btn--border btn--primary btn--animated col-lg-2 offset-lg-2" href="<?php echo ROOT_URL."home.php" ; ?>">Explore the library</a>
+            <a id="explore" class="btn btn-new btn--border btn--primary btn--animated col-lg-2 offset-lg-2 col-md-3 offset-md-3" href="<?php echo "home.php" ; ?>">Explore the library</a>
         <?php } ?>
     </div>
 </div>
